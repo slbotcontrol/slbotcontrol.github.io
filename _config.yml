@@ -14,9 +14,9 @@ timezone: America/Los_Angeles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Bot Control Doc # the main title
+title: SL Bot Control # the main title
 
-tagline: Second Life Bot Command & Control # it will display as the subtitle
+tagline: Command & Control of Second Life Bots # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Documentation for automated command and control of Second Life scripted agents (bots).
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://slbotcontrol.github.io"
 
 github:
-  username: missyrestless # change to your GitHub username
+  username: slbotcontrol # change to your GitHub username
 
 twitter:
   username: missyrestless # change to your Twitter username
@@ -40,7 +40,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/missyrestless # change to your Twitter homepage
-    - https://github.com/missyrestless # change to your GitHub homepage
+    - https://github.com/slbotcontrol # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

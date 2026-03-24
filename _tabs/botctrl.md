@@ -949,7 +949,8 @@ View `botctrl` examples and supported commands via the command `botctrl -e`.
 View the `botctrl` manual via the command `man botctrl` or
 [view the manual online](https://github.com/slbotcontrol/BotControl/blob/main/markdown/botctrl.1.md).
 
-Issues can be reported at https://github.com/slbotcontrol/BotControl/issues
+Issues can be reported at
+[https://github.com/slbotcontrol/BotControl/issues](https://github.com/slbotcontrol/BotControl/issues)
 
 ## LifeBots Control Panel
 

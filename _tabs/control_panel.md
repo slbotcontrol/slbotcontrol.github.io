@@ -1,6 +1,8 @@
 ---
 # the default layout is 'page'
+title: Control Panel
 icon: fas fa-info-circle
+toc: true
 order: 2
 ---
 

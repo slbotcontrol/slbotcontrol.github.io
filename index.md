@@ -1,7 +1,5 @@
 ---
-layout: post
-toc: true
-post_style: page
+layout: page
 ---
 
 <h1 align="center">Command Line Control of Second Life Bots</h1>

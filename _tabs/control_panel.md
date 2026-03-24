@@ -104,7 +104,7 @@ configure the LifeBots Control Panel with your LifeBots Developer API Key. Each 
 wish to control will also need a unique Bot Access Secret.
 
 1. Create a LifeBots Developer API Key
-   - Visit https://lifebots.cloud/developer to create your API Key
+   - Visit [https://lifebots.cloud/developer](https://lifebots.cloud/developer) to create your API Key
    - Copy the key and store it securely
 1. Edit the LifeBots Control Panel "Configuration" notecard
    - Right click the LifeBots Control Panel and select Edit
@@ -114,11 +114,11 @@ wish to control will also need a unique Bot Access Secret.
 1. Create a Bot Access Secret for each LifeBots bot you wish to control via the LifeBots Control Panel
    - Your command and control script will pass the Bot Access Secret to the LifeBots Control Panel
    - How to Setup a Bot Access Secret
-     - These steps are detailed in the LifeBots Knowledge Base article at https://lifebots.cloud/support/article/how-to-setup-a-bot-access-secret
+     - These steps are detailed in the LifeBots Knowledge Base article at [https://lifebots.cloud/support/article/how-to-setup-a-bot-access-secret](https://lifebots.cloud/support/article/how-to-setup-a-bot-access-secret)
      - A Bot Access Secret is required for LifeBots API authentication
      - Requests must be authenticated using an access secret unique to each bot
      - To create an access secret for a bot:
-       - Visit your LifeBots Dashboard at https://lifebots.cloud/dashboard
+       - Visit your LifeBots Dashboard at [https://lifebots.cloud/dashboard](https://lifebots.cloud/dashboard)
        - Click on the bot you wish to control via the API
          - This will open a Manage Bot panel for the bot
        - Click on the API Details pane
@@ -143,7 +143,7 @@ The `LifeBots Control Panel` sends commands from your script => your bot.
 These are the commands you send to the bot (initialization, group invitation etc).
 
 See the full list of supported `LifeBots Control Panel` commands at
-https://github.com/slbotcontrol/LifeBotsControlPanel/blob/main/Control_Panel_Commands.md
+[https://github.com/slbotcontrol/LifeBotsControlPanel/blob/main/Control_Panel_Commands.md](https://github.com/slbotcontrol/LifeBotsControlPanel/blob/main/Control_Panel_Commands.md)
 
 ### How to Send Commands
 
@@ -164,7 +164,7 @@ The `LifeBots Control Panel` sends events from your bot => your script.
 Events are notifications being sent from the bot to your script (error messages, group chat IMs etc).
 
 View the full list of supported `LifeBots Control Panel` events at
-https://github.com/slbotcontrol/LifeBotsControlPanel/blob/main/Control_Panel_Events.md
+[https://github.com/slbotcontrol/LifeBotsControlPanel/blob/main/Control_Panel_Events.md](https://github.com/slbotcontrol/LifeBotsControlPanel/blob/main/Control_Panel_Events.md)
 
 ### How to Receive Events
 
@@ -234,4 +234,5 @@ For example, your link_message function might include something like the followi
         }
 ```
 
-Issues can be reported at https://github.com/slbotcontrol/LifeBotsControlPanel/issues
+Issues can be reported at
+[https://github.com/slbotcontrol/LifeBotsControlPanel/issues](https://github.com/slbotcontrol/LifeBotsControlPanel/issues)

@@ -300,11 +300,7 @@ and a substantial and growing subset of the extensive `Corrade` API.
 
 #### BotControl Examples
 
-<details><summary>Click here to view an
-
-**example demonstrating outfit change and capturing return value**
-
-</summary>
+Example demonstrating outfit change and capturing return value
 
 ```bash
 #!/bin/bash
@@ -350,8 +346,6 @@ else
 fi
 ```
 
-</details>
-
 **[NOTE:]** the examples below all assume you have configured `$HOME/.botctrl`
 with your `LifeBots` API key and the bot secret:
 
@@ -362,11 +356,7 @@ export LB_API_KEY='<redacted>'
 export LB_SECRET_John_Doebot='<redacted>'
 ```
 
-<details><summary>Click here to view the
-
-**botctrl command examples**
-
-</summary>
+`botctrl` command examples
 
 The following actions and commands, along with example command line invocations,
 are supported by the `botctrl` command.
@@ -476,19 +466,13 @@ are supported by the `botctrl` command.
     - If `~/.botctrl` contains : `export LB_BOT_NAME='John Doebot'`
     - `botctrl -a wear_outfit -O "Business Casual"`
 
-</details>
-
 Development is in rapid progress for additional actions.
 
 Let us know which `Corrade` or `LifeBots` API requests you would like supported.
 
-### Usage and Source of botctrl command
+### Usage of botctrl command
 
-<details><summary>Click here to view the
-
-**botctrl command usage message**
-
-</summary>
+`botctrl` command usage message
 
 ```
 Usage: botctrl [-deih] [-a action] [-A avatar] [-l location] [-n name] [-k apikey] [-C channel] [-c corrade]
@@ -550,8 +534,6 @@ Supported actions for Corrade only:
   fly, flyto, getattachmentspath, getavatarpickdata, getgroupmemberdata, get_hoverheight,
   getmembersonline, getregiontop, getselfdata, inventory cwd, networkmanagerdata
 ```
-
-</details>
 
 ### Scheduling Bot Actions
 

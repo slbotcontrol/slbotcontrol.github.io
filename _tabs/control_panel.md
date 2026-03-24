@@ -1,5 +1,6 @@
 ---
-# the default layout is 'page'
+layout: post
+post_style: page
 title: Control Panel
 icon: fas fa-info-circle
 toc: true

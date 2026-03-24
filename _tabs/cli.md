@@ -1,5 +1,6 @@
 ---
-# the default layout is 'page'
+layout: post
+post_style: page
 title: Command Line
 icon: fas fa-info-circle
 toc: true
@@ -33,24 +34,6 @@ the official product of either. The official `LifeBots` site can be found at
 [https://lifebots.cloud](https://lifebots.cloud) and `Corrade` at
 [https://grimore.org/secondlife/scripted_agents/corrade](https://grimore.org/secondlife/scripted_agents/corrade).
 
-## Table of Contents
-
-- [Overview](#overview)
-  - [Corrade Overview](#corrade-overview)
-  - [LifeBots Overview](#lifebots-overview)
-- [BotControl Command Line](#botcontrol-command-line)
-  - [Requirements](#requirements)
-  - [Install botctrl](#install-botctrl)
-  - [Configure Corrade for use with the botctrl command](#configure-corrade-for-use-with-the-botctrl-command)
-  - [Configure botctrl](#configure-botctrl)
-  - [Supported Bot Actions and Examples](#supported-bot-actions-and-examples)
-    - [BotControl Examples](#botcontrol-examples)
-  - [Usage and Source of botctrl command](#usage-and-source-of-botctrl-command)
-  - [Scheduling Bot Actions](#scheduling-bot-actions)
-  - [Using the JSON return as Input](#using-the-json-return-as-input)
-  - [Botctrl Help](#botctrl-help)
-- [LifeBots Control Panel](#lifebots-control-panel)
-
 ## Overview
 
 Truth &amp; Beauty Lab hosts repositories that provide a command line management
@@ -65,7 +48,7 @@ is attempting to provide tools that go well beyond the capabilities of these HUD
 and leverage the powerful features provided by the `Corrade` and `LifeBots` API.
 
 For developers who wish to script `LifeBots` management, command, and control, the
-[LifeBots Control Panel](https://github.com/missyrestless/LifeBotsControlPanel#readme)
+[LifeBots Control Panel](https://github.com/slbotcontrol/LifeBotsControlPanel#readme)
 provides and easy to use in-world interface to the `LifeBots API`, enabling the
 automation of many of the rich `LifeBots` feature set.
 
@@ -989,7 +972,7 @@ Issues can be reported at https://github.com/slbotcontrol/BotControl/issues
 ## LifeBots Control Panel
 
 **[Note:]** `LifeBots Control Panel` has moved to its own repository at
-[https://github.com/missyrestless/LifeBotsControlPanel](https://github.com/missyrestless/LifeBotsControlPanel)
+[https://github.com/slbotcontrol/LifeBotsControlPanel](https://github.com/slbotcontrol/LifeBotsControlPanel)
 
 `LifeBots Control Panel` is an LSL script library to control `LifeBots` bots from an LSL script.
 

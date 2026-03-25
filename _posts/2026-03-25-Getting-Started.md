@@ -2,7 +2,6 @@
 title: Getting Started
 author: missyrestless
 date: 2026-03-25 12:55:00 +0800
-tags: [corrade, lifebots, command-line]
 pin: true
 img_path: "/posts/20260325"
 ---

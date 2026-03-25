@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 6
+order: 8
 ---
 
 This site acts as a repository for documentation of the Truth & Beauty Lab projects used to command and control Second Life scripted agents (bots).

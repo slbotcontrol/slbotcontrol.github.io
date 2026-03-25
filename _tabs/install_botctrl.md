@@ -3,7 +3,7 @@ layout: post
 post_style: page
 title: Install CLI
 icon: fas fa-info-circle
-order: 3
+order: 2
 ---
 
 # BotControl Command Line

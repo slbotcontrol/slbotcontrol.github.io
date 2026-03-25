@@ -4,7 +4,7 @@ post_style: page
 title: Control Panel
 icon: fas fa-info-circle
 toc: true
-order: 2
+order: 5
 ---
 
 # LifeBots Control Panel
@@ -18,6 +18,8 @@ communicates with your bots using the `LifeBots API` and an HTTP server listenin
 `LifeBots Control Panel` is compatible with `SmartBots TotalControl` scripts. Existing
 `SmartBots TotalControl` scripts can be modified, replacing the bot name and bot code with
 your `LifeBots` bot name and bot code, and used exactly as-is in `LifeBots Control Panel`.
+
+**[NOTE:]** an In-World control panel for `Corrade` bots is in development.
 
 ## What is LifeBots
 

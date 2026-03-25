@@ -1,10 +1,10 @@
 ---
 layout: post
 post_style: page
-title: Configuration
+title: Configure CLI
 icon: fas fa-info-circle
 toc: true
-order: 4
+order: 3
 ---
 
 # Configuration for Command Line Bot Control

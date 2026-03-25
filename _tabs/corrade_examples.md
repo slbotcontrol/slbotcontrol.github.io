@@ -4,7 +4,7 @@ post_style: page
 title: Corrade Examples
 icon: fas fa-info-circle
 toc: true
-order: 5
+order: 4
 ---
 
 # Example Corrade Bot Command Line Control Scripts

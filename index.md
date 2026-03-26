@@ -16,6 +16,7 @@ Second Life scripted agents (bots). Currently active projects include:
 bots. The `botctrl` command can be used to manage either `Lite` or `Full` bots from `LifeBots`
 as well as `Corrade` bots configured with the built-in Corrade HTTP service enabled.
 
+- [Getting Started with BotControl](https://slbotcontrol.github.io/posts/Getting-Started-with-BotControl/)
 - [BotControl Github Repository](https://github.com/slbotcontrol/BotControl#readme)
 
 ## In-World Scripted Object Control

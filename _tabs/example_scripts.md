@@ -1,7 +1,7 @@
 ---
 layout: post
 post_style: page
-title: Corrade Examples
+title: Example Scripts
 icon: fas fa-info-circle
 toc: true
 order: 4

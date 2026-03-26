@@ -1,7 +1,7 @@
 ---
 title: Posts
 icon: fas fa-blog
-order: 6
+order: 7
 ---
 
 <ul>

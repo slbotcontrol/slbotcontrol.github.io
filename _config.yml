@@ -16,7 +16,7 @@ timezone: America/Los_Angeles
 
 title: SL Bot Control # the main title
 
-tagline: Command & Control of LifeBots/Corrade Second Life Bots # it will display as the subtitle
+tagline: Command & Control of LifeBots and Corrade Second Life Bots # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Documentation for automated command and control of Second Life scripted agents (bots).

@@ -1,12 +1,13 @@
 ---
-title: Getting Started
+title: Getting Started with BotControl
 author: missyrestless
 date: 2026-03-25 12:55:00 +0800
 pin: true
 img_path: "/posts/20260325"
 ---
 
-To get started controlling `LifeBots` and/or `Corrade` Second Life bots you will need to:
+To get started controlling `LifeBots` and/or `Corrade` Second Life bots with `BotControl`
+you will need to:
 
 - [Setup and enable a bot](#bot-setup)
 - [Download and install `BotControl`](#installation)
@@ -15,7 +16,7 @@ To get started controlling `LifeBots` and/or `Corrade` Second Life bots you will
 
 ## Bot Setup
 
-In order to use the command line bot control tools provided here you must deploy either a
+In order to use the command line `BotControl` tools provided here you must deploy either a
 `Corrade` or `LifeBots` bot, or both. Currently these are the only two types of Second Life
 bots supported. The choice depends on your use case and level of skill.
 
@@ -46,8 +47,10 @@ for detailed steps to generate your Bot Secret(s).
 ### [Corrade Setup](https://grimore.org/secondlife/scripted_agents/corrade){:target="_blank"}{:rel="noopener noreferrer"}
 
 `Corrade` is a multi-purpose, multi-platform scripted agent (bot) that runs under Windows or Unix
-natively, as a service or daemon whilst staying connected to a Linden-based grid (either Second Life
-or OpenSim) and controlled entirely by scripts.
+natively as a service whilst staying connected to a Linden-based grid (either Second Life or OpenSim).
+
+The [Corrade API](https://grimore.org/secondlife/scripted_agents/corrade/api) is rich and much more
+extensive than any other Second Life bot system.
 
 In order to setup a `Corrade` bot you will need to install and configure a server with the `Corrade`
 software. That is, you will be self-hosting your Second Life bots. This requires some additional
@@ -272,7 +275,7 @@ on how the bot name is specified on the command line - `-c name` indicates a `Co
     - `botctrl -a teleport -n "Black Pinky" -l beach`
 
 Commands can be scripted and combined to perform actions using inputs gathered from previous
-command outputs. See the [Corrade Examples](https://slbotcontrol.github.io/corrade_examples)
+command outputs. See the [Example Scripts](https://slbotcontrol.github.io/example_scripts)
 tab of the [SL Bot Control](https://slbotcontrol.github.io) website for several examples.
 
 ### Supported Actions

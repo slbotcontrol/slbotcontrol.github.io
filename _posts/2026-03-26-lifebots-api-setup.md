@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LifeBots API Setup
+description: Step-by-step instructions for using your LifeBots API key and bot secrets with the BotControl command line tools and the LifeBots Control Panel
 author: missyrestless
 category: [LifeBots]
 tag: [setup, lifebots, api]

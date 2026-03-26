@@ -181,6 +181,30 @@ To set the `ScriptLanguage` to JSON in `CorradeConfiguration.xml`:
   <ScriptLanguage>JSON</ScriptLanguage>
 ```
 
+Note that each Corrade API request requires some permissions enabled in the Corrade
+Configuration. For example, balance inquiries and payments require the `economy`
+permission, inventory operations require the `inventory` permission, movement requires
+the `movement` permission. An example set of Corrade permissions that enable capabilities
+required by the `botctrl` command might look like:
+
+```xml
+    <Permissions>
+        <Permission>movement</Permission>
+        <Permission>grooming</Permission>
+        <Permission>interact</Permission>
+        <Permission>notifications</Permission>
+        <Permission>talk</Permission>
+        <Permission>group</Permission>
+        <Permission>land</Permission>
+        <Permission>inventory</Permission>
+        <Permission>directory</Permission>
+        <Permission>system</Permission>
+        <Permission>bridge</Permission>
+        <Permission>economy</Permission>
+        <Permission>execute</Permission>
+    </Permissions>
+```
+
 ### Configure botctrl
 
 The `botctrl` command is installed in `/usr/local/bin` along with some

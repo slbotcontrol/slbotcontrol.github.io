@@ -1,9 +1,10 @@
 ---
 title: Getting Started with BotControl
+description: How to install, configure, setup, deploy, and use the BotControl command line tools to control Corrade and LifeBots bots in Second Life
 author: missyrestless
 date: 2026-03-25 12:55:00 +0800
 category: [BotControl]
-tag: [setup, botcontrol]
+tag: [setup, botcontrol, corrade, lifebots]
 pin: true
 img_path: "/posts/20260325"
 ---

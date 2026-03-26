@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LifeBots Control Panel Setup
+description: How to setup the LifeBots Control Panel with an API key and Bot secret
 category: [ControlPanel]
 tag: [setup, lifebots, controlpanel, api]
 date: 2026-03-26 13:17 -0700

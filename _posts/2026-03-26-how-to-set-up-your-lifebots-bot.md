@@ -5,6 +5,7 @@ title: How to Set Up Your LifeBots Bot
 description: Step-by-step setup instructions to get started with LifeBots bots
 category: [LifeBots]
 tag: [setup, lifebots]
+pin: true
 date: 2026-03-26 09:47 -0700
 ---
 

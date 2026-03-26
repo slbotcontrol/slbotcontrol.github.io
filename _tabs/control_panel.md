@@ -134,9 +134,12 @@ Click on the Copy icon to copy the bot access secret to your clipboard. Paste th
 
 Repeat this process to generate a unique Bot Access Secret for each of the bots you wish to control.
 
-    - Anyone with your access secret can control your bot using the API
-    - Store this secret securely and change it regularly
-    - If compromised, create a new access secret immediately
+> Anyone with your access secret can control your bot using the API
+>
+> Store this secret securely and change it regularly
+>
+> If compromised, create a new access secret immediately
+{: .prompt-danger }
 
 ## Control Panel Commands
 

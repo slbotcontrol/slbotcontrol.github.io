@@ -2,6 +2,8 @@
 layout: post
 author: missyrestless
 title: Setup Your Bot as a Scripted Agent in Second Life
+category: [General]
+tag: [setup, secondlife]
 date: 2026-03-26 10:26 -0700
 ---
 

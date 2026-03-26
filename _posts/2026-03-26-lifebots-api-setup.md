@@ -2,6 +2,8 @@
 layout: post
 title: LifeBots API Setup
 author: missyrestless
+category: [LifeBots]
+tag: [setup, lifebots, api]
 pin: true
 date: 2026-03-26 09:12 -0700
 ---

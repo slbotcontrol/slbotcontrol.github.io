@@ -2,6 +2,8 @@
 title: Getting Started with BotControl
 author: missyrestless
 date: 2026-03-25 12:55:00 +0800
+category: [BotControl]
+tag: [setup, botcontrol]
 pin: true
 img_path: "/posts/20260325"
 ---

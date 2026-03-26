@@ -1,12 +1,12 @@
 ---
 layout: post
 author: missyrestless
-title: How to Set Up Your Corrade Bot
-description: Step-by-step setup instructions to get started with Corrade bots
+title: Corrade Bot Setup Instructions
+description: Instructions for deploying Corrade bots
 category: [Corrade]
 tag: [setup, corrade]
 pin: true
-date: 2026-03-26 10:42 -0700
+date: 2026-03-26 16:18 -0700
 ---
 
 A `Corrade` bot is a Second Life account that logs in and runs as an automated scripted agent.

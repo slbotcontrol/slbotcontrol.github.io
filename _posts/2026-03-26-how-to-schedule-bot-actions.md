@@ -32,7 +32,8 @@ or scripts you have written that use the `BotControl` facility. Once you have yo
 
 Each job entry in the crontab file follows a specific format on a single line:
 
-    minute hour day_of_month month day_of_week command_to_execute
+> minute hour day_of_month month day_of_week command_to_execute
+{: .prompt-info }
 
 Each of the first five fields accepts specific values, ranges, lists, or step values:
 

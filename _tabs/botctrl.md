@@ -4,7 +4,7 @@ post_style: page
 title: Command Line
 icon: fas fa-info-circle
 toc: true
-order: 1
+order: 2
 ---
 
 # Command Line Control of Second Life Bots

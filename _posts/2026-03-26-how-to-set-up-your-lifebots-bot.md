@@ -2,6 +2,7 @@
 layout: post
 author: missyrestless
 title: How to Set Up Your LifeBots Bot
+pin: true
 date: 2026-03-26 09:47 -0700
 ---
 

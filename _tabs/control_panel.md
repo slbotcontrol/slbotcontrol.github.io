@@ -4,7 +4,7 @@ post_style: page
 title: Control Panel
 icon: fas fa-info-circle
 toc: true
-order: 6
+order: 7
 ---
 
 # LifeBots Control Panel

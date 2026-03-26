@@ -4,7 +4,7 @@ post_style: page
 title: Manual
 icon: fas fa-info-circle
 toc: true
-order: 5
+order: 6
 ---
 
 # BOTCONTROL

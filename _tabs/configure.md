@@ -4,7 +4,7 @@ post_style: page
 title: Configure
 icon: fas fa-info-circle
 toc: true
-order: 3
+order: 4
 ---
 
 # Configuration for Command Line Bot Control

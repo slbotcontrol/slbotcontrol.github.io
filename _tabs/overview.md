@@ -1,5 +1,10 @@
 ---
-layout: home
+layout: post
+post_style: page
+title: Overview
+icon: fas fa-info-circle
+toc: true
+order: 1
 ---
 
 <h1 align="center">Command &amp; Control of Second Life Bots</h1>

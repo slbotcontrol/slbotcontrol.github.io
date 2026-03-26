@@ -10,7 +10,7 @@ date: 2026-03-26 09:47 -0700
 A LifeBots bot is a Second Life account that logs in and runs as an automated scripted agent. You'll need three things:
 
 - A separate Second Life account — Do not use your main avatar. Use a name that fits your bot's purpose (e.g., "MyStore Greeter"). [Create one here](https://join.secondlife.com).
-- Scripted agent status — You must flag the bot account as a scripted agent in your Second Life account settings. This is required by Linden Lab's Terms of Service — without it, your bot account may be suspended. [See related article](https://lifebots.cloud/support/article/how-to-set-your-bot-as-a-scripted-agent-in-second-life)
+- Scripted agent status — You must flag the bot account as a scripted agent in your Second Life account settings. This is required by Linden Lab's Terms of Service — without it, your bot account may be suspended. [See related article](https://slbotcontrol.github.io/posts/setup-your-bot-as-a-scripted-agent-in-second-life)
 - The bot account's username and password — The same credentials you'd use to log into the Second Life viewer.
 
 ## Step-by-Step Setup

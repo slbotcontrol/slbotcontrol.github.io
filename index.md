@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 
 <h1 align="center">Command &amp; Control of Second Life Bots</h1>

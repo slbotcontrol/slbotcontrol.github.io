@@ -1,7 +1,7 @@
 ---
 layout: post
 post_style: page
-title: Install CLI
+title: Install
 icon: fas fa-info-circle
 order: 2
 ---

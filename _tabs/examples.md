@@ -1,7 +1,7 @@
 ---
 layout: post
 post_style: page
-title: Example Scripts
+title: Examples
 icon: fas fa-info-circle
 toc: true
 order: 4

@@ -275,7 +275,7 @@ on how the bot name is specified on the command line - `-c name` indicates a `Co
     - `botctrl -a teleport -n "Black Pinky" -l beach`
 
 Commands can be scripted and combined to perform actions using inputs gathered from previous
-command outputs. See the [Example Scripts](https://slbotcontrol.github.io/example_scripts)
+command outputs. See the [Examples](https://slbotcontrol.github.io/examples)
 tab of the [SL Bot Control](https://slbotcontrol.github.io) website for several examples.
 
 ### Supported Actions

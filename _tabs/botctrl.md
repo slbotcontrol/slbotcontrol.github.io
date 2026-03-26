@@ -9,12 +9,6 @@ order: 1
 
 # Command Line Control of Second Life Bots
 
-Install `BotControl`:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/slbotcontrol/BotControl/refs/heads/main/install | bash
-```
-
 `BotControl` is a command line management system for `LifeBots` and `Corrade` Second Life
 scripted agents (bots). The `botctrl` command can be used to manage either `Lite` or `Full` bots
 from `LifeBots` as well as `Corrade` bots configured with the built-in Corrade HTTP service enabled.
@@ -72,8 +66,8 @@ and update it myself, and my bots are not dependant on some cloud service
 that may disappear at any time. This is a significant advantage.
 
 `Corrade` is a multi-purpose, multi-platform scripted agent (bot) that runs under
-Windows or Unix natively, as a service or daemon whilst staying connected to a
-Linden-based grid (either Second Life or OpenSim) and controlled entirely by scripts.
+Windows or Unix natively as a service whilst staying connected to a Linden-based
+grid (either Second Life or OpenSim).
 
 The scripts in this repository are original scripting by Truth &amp; Beauty Lab.
 
@@ -127,8 +121,7 @@ The `botctrl` command line management system requires:
 
 These requirements, with the exception of `jq`, are typically included in the base
 operating system on all supported platforms. If your platform does not have `jq`
-installed then you can still use `botctrl`, a few of the helper utilities will not
-function properly but the bulk of the system will function without `jq`.
+installed then the `BotControl` installation will attempt to install `jq`.
 
 ### Install botctrl
 

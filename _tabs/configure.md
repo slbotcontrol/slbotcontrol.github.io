@@ -1,7 +1,7 @@
 ---
 layout: post
 post_style: page
-title: Configure CLI
+title: Configure
 icon: fas fa-info-circle
 toc: true
 order: 3

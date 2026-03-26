@@ -1,7 +1,7 @@
 ---
 layout: post
 post_style: page
-title: BotControl Manual
+title: Manual
 icon: fas fa-info-circle
 toc: true
 order: 5

@@ -32,7 +32,7 @@ or scripts you have written that use the `BotControl` facility. Once you have yo
 
 Each job entry in the crontab file follows a specific format on a single line:
 
-> minute hour day_of_month month day_of_week command_to_execute
+> minute    hour    day_of_month    month    day_of_week    command_to_execute
 {: .prompt-info }
 
 Each of the first five fields accepts specific values, ranges, lists, or step values:
@@ -107,3 +107,51 @@ To view your currently active `crontab` entries run the command `crontab -l`.
 - `crontab -e`: Edits the crontab file, or creates one if it doesn't exist.
 - `crontab -l`: Displays the current crontab entries.
 - `crontab -r`: Removes the current crontab file entirely (use with caution).
+
+## Advanced Crontab Example
+
+Crontab entries can be fairly complex. In this example the `crontab` entries are
+crafted to run a cryptocurrency miner only during an energy provider's Off-Peak hours.
+
+The schedule set here is for the PG&E Time-of-Use Rate Plan E-6.
+
+Although unrelated to scheduled bot actions, this example illustrates some of the
+ways `crontab` can be used to schedule activity.
+
+```
+# By default these entries run every 15 minutes. This provides a keepalive function
+# and relies on the start_miner script checking to see if it is already running.
+# You may prefer to change the '0,15,30,45' entries to simply '0' or '15' to only
+# start/stop once and not every 15 minutes. Or, you may prefer to increase the
+# "keepalive" frequency from 15 to 5 minutes - '0,5,10,15,20,25,30,35,40,45,50,55'
+#
+# Set SHELL to run my custom cron startup script when running commands
+SHELL=/usr/local/bin/cron.bash
+#
+# minutes hours days-of-month months days-of-week  command
+#
+# Start miner during off-peak hours (Summer)
+# ------------------------------------------
+# Weekdays
+0,15,30,45 0-9,21-23 * 5-10 1-5 /usr/local/bin/start_miner
+# Weekends
+0,15,30,45 0-12,20-23 * 5-10 0,6 /usr/local/bin/start_miner
+#
+# Start miner during off-peak hours (Winter)
+# ------------------------------------------
+# Weekdays
+0,15,30,45 0-16,20-23 * 1-4,11,12 1-5 /usr/local/bin/start_miner
+# Weekends
+0,15,30,45 * * 1-4,11,12 0,6 /usr/local/bin/start_miner
+#
+# Stop miner during peak/near-peak hours (Summer)
+# -----------------------------------------------
+# Weekdays
+0,15,30,45 10-20 * 5-10 1-5 /usr/local/bin/stop_miner
+# Weekends
+0,15,30,45 13-19 * 5-10 0,6 /usr/local/bin/stop_miner
+#
+# Stop miner during peak/near-peak hours (Winter)
+# -----------------------------------------------
+0,15,30,45 17-19 * 1-4,11,12 1-5 /usr/local/bin/stop_miner
+```

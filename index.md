@@ -1,10 +1,5 @@
 ---
-layout: post
-post_style: page
-title: Overview
-icon: fas fa-info-circle
-toc: true
-order: 1
+layout: page
 ---
 
 <h1 align="center">Command &amp; Control of Second Life Bots</h1>
@@ -12,8 +7,8 @@ order: 1
 The Truth &amp; Beauty Lab creates and maintains projects to command and control
 Second Life scripted agents (bots). Currently active projects include:
 
-- Suite of command line tools for remote control of `Corrade` and `LifeBots` bots
-- In-World LSL scripted object enabling scripted command and control of `LifeBots` bots
+- `BotControl` : Command line tools for remote control of `Corrade` and `LifeBots` bots
+- `LifeBots Control Panel` : In-World LSL scripted object enabling command and control of `LifeBots` bots
 
 ## Command Line Control
 

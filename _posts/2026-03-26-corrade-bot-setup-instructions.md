@@ -57,7 +57,8 @@ Regardless how Corrade is installed, upon starting Corrade, Corrade will mention
 
 Nucleus listens on all addresses so if Corrade is installed on the local machine then the Nucleus interface will be available at following URL:
 
-    http://127.0.0.1:54377/
+> http://127.0.0.1:54377/
+{: .prompt-info }
 
 If Corrade is running on a different machine, then the Nucleus web interface can be accessed through the network by pointing the browser to http://TARGET_MACHINE:54377/ where TARGET_MACHINE is the hostname or IP address of the machine on which Corrade has been launched.
 

@@ -5,6 +5,7 @@ title: How to Schedule Bot Actions
 description: How to automate scheduled bot actions using the cron facility
 category: [General]
 tag: [setup, schedule]
+pin: false
 date: 2026-03-26 15:52 -0700
 ---
 
@@ -62,7 +63,7 @@ in place of the five time-date fields.
 Here is an example `crontab` entry with some brief descriptions in comments
 of what activities are scheduled:
 
-```
+```cron
 SHELL=/bin/bash
 #
 # Schedule BotControl actions
@@ -118,12 +119,13 @@ The schedule set here is for the PG&E Time-of-Use Rate Plan E-6.
 Although unrelated to scheduled bot actions, this example illustrates some of the
 ways `crontab` can be used to schedule activity.
 
-```
-# By default these entries run every 15 minutes. This provides a keepalive function
-# and relies on the start_miner script checking to see if it is already running.
-# You may prefer to change the '0,15,30,45' entries to simply '0' or '15' to only
-# start/stop once and not every 15 minutes. Or, you may prefer to increase the
-# "keepalive" frequency from 15 to 5 minutes - '0,5,10,15,20,25,30,35,40,45,50,55'
+```cron
+# By default these entries run every 15 minutes. This provides
+# a keepalive function and relies on the start_miner script checking
+# to see if it is already running. You may prefer to change the
+# '0,15,30,45' entries to simply '0' or '15' to only start/stop once
+# and not every 15 minutes. Or, you may prefer to increase the "keepalive"
+# frequency from 15 to 5 minutes - '0,5,10,15,20,25,30,35,40,45,50,55'
 #
 # Set SHELL to run my custom cron startup script when running commands
 SHELL=/usr/local/bin/cron.bash

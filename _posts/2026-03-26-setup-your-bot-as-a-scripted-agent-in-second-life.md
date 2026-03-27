@@ -5,6 +5,7 @@ title: Setup Your Bot as a Scripted Agent in Second Life
 description: How to set your bot's Second Life account as a scripted agent
 category: [General]
 tag: [setup, secondlife]
+pin: false
 date: 2026-03-26 10:26 -0700
 ---
 

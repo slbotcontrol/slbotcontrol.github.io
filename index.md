@@ -12,7 +12,7 @@ Second Life scripted agents (bots). Currently active projects include:
 bots. The `botctrl` command can be used to manage either `Lite` or `Full` bots from `LifeBots`
 as well as `Corrade` bots configured with the built-in Corrade HTTP service enabled.
 
-- [Getting Started with BotControl](https://slbotcontrol.github.io/posts/Getting-Started-with-BotControl/)
+- [Getting Started with BotControl](https://slbotcontrol.github.io/posts/getting-started-with-botcontrol/)
 - [BotControl Github Repository](https://github.com/slbotcontrol/BotControl#readme)
 
 ## In-World Scripted Object Control
@@ -23,23 +23,29 @@ The `LifeBots Control Panel` is a scripted In-World object that acts as a bridge
 between your `LifeBots` management scripts and your `LifeBots` bots. The control panel
 communicates with your bots using the `LifeBots API` and an HTTP server listening to events.
 
-### LifeBots Control Panel Features
-
-- Login / Logout your Bot
-- Bot Movement Controls (e.g. Fly, Sit, Stand, Teleport, Walk, Walk To)
-- Object Interaction (e.g. Find/Take/Delete/Sit On/Touch Objects)
-- List and Wear Outfits
-- Manage Bot Groups
-- Manage Communication (Send & Receive IMs, Local, & Group Chat, Offer Teleport, etc)
-- Pay Avatars/Objects
-- List, Manage, & Send Inventory
-- Sim Management (if bot has Sim rights)
-- Trigger Bot actions on Events (e.g. Sit on object when Bot receives payment)
-- Create, read, edit, and send notecards
-- Much more, see the [Commands Reference](https://github.com/slbotcontrol/LifeBotsControlPanel/blob/main/Control_Panel_Commands.md) for a full listing
-
-
+- [LifeBots Control Panel Setup](https://slbotcontrol.github.io/posts/lifebots-control-panel-setup/)
 - [LifeBots Control Panel Github Repository](https://github.com/slbotcontrol/LifeBotsControlPanel)
+
+## How-To Articles
+
+These articles detail the step-by-step procedures for deploying `Corrade` and `LifeBots` bots,
+configuring remote command and control of your bots, and automating bot actions.
+
+### Articles for Corrade Bots
+
+- [Corrade Bot Setup Instructions](https://slbotcontrol.github.io/posts/corrade-bot-setup-instructions/)
+
+### Articles for LifeBots Bots
+
+- [How to Setup Your LifeBots Bot](https://slbotcontrol.github.io/posts/how-to-set-up-your-lifebots-bot/)
+- [LifeBots API Setup](https://slbotcontrol.github.io/posts/lifebots-api-setup/)
+- [LifeBots Control Panel Setup](https://slbotcontrol.github.io/posts/lifebots-control-panel-setup/)
+
+### Articles for both Corrade and LifeBots Bots
+
+- [Getting Started with BotControl](https://slbotcontrol.github.io/posts/getting-started-with-botcontrol/)
+- [How to Schedule Bot Actions with Cron](https://slbotcontrol.github.io/posts/how-to-schedule-bot-actions/)
+- [Setup Your Bot as a Scripted Agent in Second Life](https://slbotcontrol.github.io/posts/setup-your-bot-as-a-scripted-agent-in-second-life/)
 
 ## Disclaimer
 

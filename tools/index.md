@@ -1,7 +1,3 @@
----
-layout: page
----
-
 <h1 align="center">Command &amp; Control of Second Life Bots</h1>
 
 The Truth &amp; Beauty Lab creates and maintains projects to command and control

@@ -1,9 +1,6 @@
 ---
-layout: post
-post_style: page
 title: Configure
 icon: fas fa-info-circle
-toc: true
 order: 4
 ---
 
@@ -13,9 +10,6 @@ In order to control `Corrade` or `LifeBots` bots from the command line some conf
 is required. After installing `BotControl` perform the following configuration steps.
 
 ## Configure Corrade for use with the botctrl command
-
-Version 2 and later of the `botctrl` command supports command and control of both
-`LifeBots` and `Corrade` bots.
 
 In order to use the `botctrl` command to manage your `Corrade` bot(s):
 
@@ -43,6 +37,30 @@ To set the `ScriptLanguage` to JSON in `CorradeConfiguration.xml`:
 
 ```xml
   <ScriptLanguage>JSON</ScriptLanguage>
+```
+
+Note that each Corrade API request requires some permissions enabled in the Corrade
+Configuration. For example, balance inquiries and payments require the `economy`
+permission, inventory operations require the `inventory` permission, movement requires
+the `movement` permission. An example set of Corrade permissions that enable capabilities
+required by the `botctrl` command might look like:
+
+```xml
+    <Permissions>
+        <Permission>movement</Permission>
+        <Permission>grooming</Permission>
+        <Permission>interact</Permission>
+        <Permission>notifications</Permission>
+        <Permission>talk</Permission>
+        <Permission>group</Permission>
+        <Permission>land</Permission>
+        <Permission>inventory</Permission>
+        <Permission>directory</Permission>
+        <Permission>system</Permission>
+        <Permission>bridge</Permission>
+        <Permission>economy</Permission>
+        <Permission>execute</Permission>
+    </Permissions>
 ```
 
 ## Configure botctrl

@@ -1,13 +1,22 @@
 ---
 layout: post
 post_style: page
-title: Examples
+title: LifeBots and Corrade Command and Control Examples
 icon: fas fa-info-circle
 toc: true
 order: 5
 ---
 
-# Example Corrade Bot Command Line Control Scripts
+## Example LifeBots Control Panel Bot Command and Control Scripts
+
+These LSL scripts provide examples of how to command and control `LifeBots` bots using
+the `LifeBots Control Panel` in-world object. The `LifeBots Control Panel` acts as a
+bridge between your user script and the `LifeBots` API.
+
+- [Avatar Picks LifeBots Control Panel Example](https://slbotcontrol.github.io/posts/lifebots-control-panel-example-avatar-picks/)
+- [Channel Relay LifeBots Control Panel Example](https://slbotcontrol.github.io/posts/lifebots-control-panel-example-channel-relay/)
+
+## Example Corrade Bot Command Line Control Scripts
 
 These `Bash` scripts provide examples of how to automate some simple `Corrade` bot actions.
 
@@ -19,7 +28,7 @@ name or an alias for the name you have configured.
 we are using the `corrade` command. The same command could be run using the `botctrl`
 command but it would be `"botctrl -c Easy ..."`, using the `-c Name` instead.
 
-## Get Corrade Bot Outfits
+### Get Corrade Bot Outfits
 
 To retrieve a list of a configured Corrade bot's Outfits use the `corrade` command
 with the `get_outfits` action.
@@ -41,7 +50,16 @@ else
 fi
 ```
 
-## Wear Corrade Bot Outfit
+Example Returned Output:
+
+```
+Bikini - Purple
+Metallic Blue with Black Boots
+Female Party Outfit
+Pretty in Pink
+```
+
+### Wear Corrade Bot Outfit
 
 To change the outfit of a configured Corrade bot use the `corrade` command
 with the `wear_outfit` action.
@@ -75,7 +93,9 @@ else
 fi
 ```
 
-## Get Avatar Pick Description
+Example Returned Output: `Outfit change succeeded! We can go out to the club now.`
+
+### Get Avatar Pick Description
 
 To view a pick description of an avatar using a configured Corrade bot,
 use the `corrade` command with the `avatar_picks` action to retrieve the avatar's
@@ -123,7 +143,17 @@ else
 fi
 ```
 
-## Get Corrade Bot Position
+Example Returned Output:
+
+```
+Avatar Missy Restless's pick: "* Inspire Space Park"
+
+Meditate in a cosmic sci-fi natural outer space galaxy built by talented SL artists.
+Blast off into the heavens, a universe of magic! Float amidst the stars & planets,
+listen to soothing ambient tunes.Affordable land rentals!Moonbase homes too-No Children
+```
+
+### Get Corrade Bot Position
 
 To retrieve the position of a configured Corrade bot use the `corrade` command
 with the `currentsim` and `selfdata` actions.
@@ -150,3 +180,81 @@ else
   corrade -a selfdata -n "${BOT_NAME}" -D SimPosition
 fi
 ```
+
+Example Returned Output:
+
+```
+Region: Brightbrook Isle
+Coordinates: <36.667843, 71.732635, 21.86871>
+```
+
+## Example LifeBots Bot Command Line Control Scripts
+
+These `Bash` scripts provide examples of how to automate some simple `LifeBots` bot actions.
+
+In these examples we specify the bot name as `Anya`, an alias configured in
+`~/.botctrl` with `BOT_NAME_Anya="Anya Ordinary"`. Replace `Anya` with your LifeBots bot's
+name or an alias for the name you have configured.
+
+### Get LifeBots Bot Outfits
+
+To retrieve a list of a configured `LifeBots` bot's Outfits use the `lifebot` command
+with the `get_outfits` action. In this example we specify the bot name as Anya, an
+alias configured in ~/.botctrl with BOT_NAME_Anya="Anya Ordinary"
+
+In this example we use the jq JSON parser, if it is available, to filter the returned
+JSON, displaying only a list of the outfit names. If jq not available we use grep.
+
+```sh
+#!/bin/bash
+#
+# Replace 'Anya' with your LifeBots bot name or an alias for the name you have configured
+BOT_NAME="Anya"
+
+have_jq=$(type -p jq)
+if [ "${have_jq}" ]; then
+  lifebot -a get_outfits -n "${BOT_NAME}" | jq -r '.outfits[].name'
+else
+  lifebot -a get_outfits -n "${BOT_NAME}" | grep name
+fi
+```
+
+Example Returned Output:
+
+```
+Cute Paradisis Ensemble
+Blue Leather Bikini
+Black Lacey Top & Latex Shorts
+Dirty Silks
+Sonia Rosalinda White Dress
+Vinyl Dress
+```
+
+### Get LifeBots Bot Position
+
+To retrieve the position of a configured `LifeBots` bot use the `lifebot` command
+with the `bot_location` action. In this example we specify the bot name as Anya,
+an alias configured in ~/.botctrl with BOT_NAME_Anya="Anya Ordinary"
+
+```sh
+#!/bin/bash
+#
+# Replace 'Anya' with your LifeBots bot name or an alias for the name you have configured
+BOT_NAME="Anya"
+
+debug=
+[ "$1" == "-v" ] && debug=1
+
+if [ "${debug}" ]; then
+  lifebot -a bot_location -n "${BOT_NAME}" -v
+else
+  have_jq=$(type -p jq)
+  if [ "${have_jq}" ]; then
+    lifebot -a bot_location -n "${BOT_NAME}" | jq -r '"\(.region), \(.x), \(.y), \(.z)"'
+  else
+    lifebot -a bot_location -n "${BOT_NAME}"
+  fi
+fi
+```
+
+Example Returned Output: `Brightbrook Isle, 37.84563, 73.68094, 21.880709`

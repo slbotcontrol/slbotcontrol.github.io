@@ -1,11 +1,19 @@
 ---
 layout: post
 post_style: page
-title: LifeBots and Corrade Command and Control Examples
+title: Examples
 icon: fas fa-info-circle
 toc: true
 order: 5
 ---
+
+# LifeBots and Corrade Command and Control Examples
+
+These examples provide a demonstration of the following:
+
+- `LSL` scripts demonstrating use of the `LifeBots Control Panel`
+- `Bash` scripts demonstrating use of the `corrade` command to control `Corrade` bots
+- `Bash` scripts demonstrating use of the `lifebot` command to control `LifeBots` bots
 
 ## Example LifeBots Control Panel Bot Command and Control Scripts
 

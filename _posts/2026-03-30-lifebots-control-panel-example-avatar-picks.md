@@ -62,7 +62,7 @@ END_SETTINGS
 
 The `avatar_picks` script contains the following:
 
-```lsl
+```c
 ////////////////////////////////////////////////////////////////////////////////
 // Avatar Picks -  returns the Profile Picks of whoever touches the object    //
 // Control Panel documentation: https://slbotcontrol.github.io/control_panel/ //

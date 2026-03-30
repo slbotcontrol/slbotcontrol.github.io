@@ -1,6 +1,6 @@
 ---
 icon: fas fa-info-circle
-order: 9
+order: 10
 ---
 
 This site acts as a repository for documentation of the Truth & Beauty Lab projects used to command and control Second Life scripted agents (bots).

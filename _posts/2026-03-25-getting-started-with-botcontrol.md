@@ -322,4 +322,5 @@ commands include:
 | detach | fly | flyto |
 | getattachmentspath | getavatarpickdata | getgroupmemberdata |
 | get_hoverheight | getmembersonline | getregiontop |
-| getselfdata | inventory cwd | networkmanagerdata |
+| getselfdata | inventory cwd | key2displayname |
+|    | networkmanagerdata |    |
